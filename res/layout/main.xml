@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seg = "http://schemas.android.com/apk/res/random.frank.segmenttab"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<random.frank.segmenttab.SegmentTab
+	    android:id="@+id/seg_t"
+	    android:layout_height="36dip"
+	    android:layout_width="220dip" 
+	    android:layout_marginTop="20dip"
+	    android:layout_gravity="center_horizontal"
+	    seg:color="#FFA500"
+	    seg:count="3" 
+	    seg:tab1="地图"
+	    seg:tab2="关注"
+	    seg:tab3="设置"/>
+	
+	<random.frank.segmenttab.SegmentTab
+	    android:id="@+id/seg_t2"
+	    android:layout_height="36dip"
+	    android:layout_width="220dip" 
+	    android:layout_marginTop="20dip"
+	    android:layout_gravity="center_horizontal"
+	    seg:color="#00B2EE"
+	    seg:count="2" 
+	    seg:tab1="地图"
+	    seg:tab2="关注"
+	    seg:tab3="设置"/>
+	
+	<random.frank.segmenttab.SegmentTab
+	    android:id="@+id/seg_t3"
+	    android:layout_height="36dip"
+	    android:layout_width="220dip" 
+	    android:layout_marginTop="20dip"
+	    android:layout_gravity="center_horizontal"
+	    seg:color="#9E9E9E"
+	    seg:count="4" 
+	    seg:tab1="地图"
+	    seg:tab2="关注"
+	    seg:tab3="设置"
+	    seg:tab4="我"/>
+</LinearLayout>

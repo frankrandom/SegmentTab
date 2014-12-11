@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="seg">
+        <attr name="count" format="integer" />
+        <attr name="color" format="reference|color"/>
+        <attr name="textSize" format="integer"/>
+        <attr name="tab1" format="string"/>
+		<attr name="tab2" format="string"/>
+		<attr name="tab3" format="string"/>
+		<attr name="tab4" format="string"/>
+		<attr name="tab5" format="string"/>
+		<attr name="tab6" format="string"/>
+		<attr name="tab7" format="string"/>
+		<attr name="tab8" format="string"/>
+		<attr name="tab9" format="string"/>     
+    </declare-styleable> 
+</resources>
