@@ -10,6 +10,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+/**
+ * 
+ * @author frank.random
+ *
+ */
 public class MainActivity extends Activity {
 
 	private SegmentTab mSegTab;

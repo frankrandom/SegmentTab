@@ -13,6 +13,11 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+/**
+ * 
+ * @author frank.random
+ *
+ */
 public class SegmentTab extends View {
 
 	private Context mContext;
